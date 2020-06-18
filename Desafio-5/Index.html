@@ -8,12 +8,12 @@
   <body>
     <script>
       function formarfrase(usuarios) {
-        for (var habilidades of usuarios) {
+        for (var usuario of usuarios) {
           console.log(
             "O " +
-              usuarios.nome +
+              usuario.nome +
               ", possui as habilidades: " +
-              usuarios.habilidades.join(",")
+              usuario.habilidades.join(",")
           );
         }
       }
