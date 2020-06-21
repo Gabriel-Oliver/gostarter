@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div
+      onmouseover="caixa(this)"
+      style="width: 100px; height: 100px; background-color: black;"
+      class="box"
+    ></div>
+    <script>
+      function getRandomColor() {
+        let letters = "0123456789ABCDEF";
+        let color = "#";
+        for (let i = 0; i < 6; i++) {
+          color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+      }
+
+      let newColor = getRandomColor();
+
+      function caixa(elemento) {
+        console.log(elemento);
+        let newColor = getRandomColor();
+        elemento.style.backgroundColor = newColor;
+      }
+    </script>
+  </body>
+</html>
