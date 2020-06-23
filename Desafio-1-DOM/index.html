@@ -5,29 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+
   <body>
-    <div
-      onmouseover="caixa(this)"
-      style="width: 100px; height: 100px; background-color: black;"
-      class="box"
-    ></div>
+    <div onclick="criarQuadrado()" class="box">
+      <button>
+        me pressione
+      </button>
+    </div>
+
     <script>
-      function getRandomColor() {
-        let letters = "0123456789ABCDEF";
-        let color = "#";
-        for (let i = 0; i < 6; i++) {
-          color += letters[Math.floor(Math.random() * 16)];
-        }
-        return color;
+      function boxPosition() {
+        let porcentagem = "%";
+        let posicao = [Math.floor(Math.random() * 100)];
+
+        let posicaototal = posicao + porcentagem;
+
+        return posicaototal;
+      }
+      function criarQuadrado() {
+        let boxElement = document.querySelector(".box");
+        let x = boxPosition();
+        let y = boxPosition();
+        boxElement.style.position = "absolute";
+        boxElement.style.top = x;
+        boxElement.style.left = y;
+        boxElement.style.width = "100px";
+        boxElement.style.height = "100px";
+        boxElement.style.backgroundColor = "#f00";
+        console.log(boxElement);
+        console.log(x);
       }
 
-      let newColor = getRandomColor();
-
-      function caixa(elemento) {
-        console.log(elemento);
-        let newColor = getRandomColor();
-        elemento.style.backgroundColor = newColor;
-      }
+      criarQuadrado();
     </script>
   </body>
 </html>
