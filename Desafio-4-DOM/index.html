@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" name="name" />
+    <button onClick="add()" class="button">Adicionar</button>
+    <ul id="list"></ul>
+
+    <script>
+      function list(names) {
+        let ul = document.querySelector("#list");
+        let li;
+
+        li = document.createElement("li");
+        li.innerText = names;
+
+        ul.appendChild(li);
+      }
+      function add() {
+        let inputElement = document.querySelector("input[name = name]");
+        let btnElement = document.querySelector(".button");
+        let names = inputElement.value;
+        list(names);
+        inputElement.value = "";
+      }
+    </script>
+  </body>
+</html>
