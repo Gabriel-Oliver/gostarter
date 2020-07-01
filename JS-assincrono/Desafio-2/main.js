@@ -18,6 +18,7 @@ function adicionar() {
         ul.appendChild(li);
       }
     })
+
     .catch(function (error) {
       console.warn(error);
     });
