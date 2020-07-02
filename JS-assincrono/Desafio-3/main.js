@@ -1,8 +1,15 @@
-function adicionar() {
+async function adicionar() {
   let inputElement = document.querySelector("input");
   nameuser = inputElement.value;
   let nameURL = "https://api.github.com/users/" + nameuser + "/repos";
-  axios
+
+  let loading = document.createElement("p");
+  loading.innerHTML = "<b>LOADING...</b>";
+
+  let body = document.querySelector("body");
+  body.appendChild(loading);
+
+  await axios
     .get(nameURL)
     .then(function (response) {
       let ul = document.querySelector("#list");
@@ -21,9 +28,7 @@ function adicionar() {
 
     .catch(function (error) {
       console.warn(error);
-      li = document.createElement("li");
-      li.innerText = "O usuário não existe";
-
-      ul.appendChild(li);
+      alert("O usuário " + nameuser + " não existe");
     });
+  body.removeChild(loading);
 }
