@@ -1,5 +1,5 @@
 {
-  "name": "estudoJS",
+  "name": "estudoJs",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/Gabriel-Oliver/gostarter.git",
@@ -11,6 +11,6 @@
     "@babel/preset-env": "^7.10.4"
   },
   "scripts": {
-    "dev": "babel ./main.js -o ./bundle.js -w"
+    "ConfigBabel": "babel ./CursoJsES6/Conceitos/ConfigBabel/main.js -o ./CursoJsES6/Conceitos/ConfigBabel/ConfigBabelbundle.js "
   }
 }
