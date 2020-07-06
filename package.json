@@ -11,6 +11,7 @@
     "@babel/preset-env": "^7.10.4"
   },
   "scripts": {
-    "ConfigBabel": "babel ./CursoJsES6/Conceitos/ConfigBabel/main.js -o ./CursoJsES6/Conceitos/ConfigBabel/ConfigBabelbundle.js "
+    "ConfigBabel": "babel ./CursoJsES6/Conceitos/ConfigBabel/main.js -o ./CursoJsES6/Conceitos/ConfigBabel/ConfigBabelbundle.js -w",
+    "Classesjs": "babel ./CursoJsES6/Conceitos/Classesjs/main.js -o ./CursoJsES6/Conceitos/Classesjs/Classesjsbundle.js -w"
   }
 }
