@@ -12,6 +12,7 @@
   },
   "scripts": {
     "ConfigBabel": "babel ./CursoJsES6/Conceitos/ConfigBabel/main.js -o ./CursoJsES6/Conceitos/ConfigBabel/ConfigBabelbundle.js -w",
-    "Classesjs": "babel ./CursoJsES6/Conceitos/Classesjs/main.js -o ./CursoJsES6/Conceitos/Classesjs/Classesjsbundle.js -w"
+    "Classesjs": "babel ./CursoJsES6/Conceitos/Classesjs/main.js -o ./CursoJsES6/Conceitos/Classesjs/Classesjsbundle.js -w",
+    "Const_let": "babel ./CursoJsES6/Conceitos/Const_let/main.js -o ./CursoJsES6/Conceitos/Const_let/Const_letbundle.js -w"
   }
 }
