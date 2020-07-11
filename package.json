@@ -16,6 +16,7 @@
     "Const_let": "babel ./CursoJsES6/Conceitos/Const_let/main.js -o ./CursoJsES6/Conceitos/Const_let/Const_letbundle.js -w",
     "Array": "babel ./CursoJsES6/Conceitos/Array/main.js -o ./CursoJsES6/Conceitos/Array/Arraybundle.js -w",
     "Arrow": "babel ./CursoJsES6/Conceitos/Arrow/main.js -o ./CursoJsES6/Conceitos/Arrow/Arrowbundle.js -w",
-    "ValoresP": "babel ./CursoJsES6/Conceitos/ValoresP/main.js -o ./CursoJsES6/Conceitos/ValoresP/ValoresPbundle.js -w"
+    "ValoresP": "babel ./CursoJsES6/Conceitos/ValoresP/main.js -o ./CursoJsES6/Conceitos/ValoresP/ValoresPbundle.js -w",
+    "Desestrutura": "babel ./CursoJsES6/Conceitos/Desestrutura/main.js -o ./CursoJsES6/Conceitos/Desestrutura/DesestruturaPbundle.js -w"
   }
 }
