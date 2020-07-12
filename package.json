@@ -8,6 +8,7 @@
   "dependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.4",
     "@babel/preset-env": "^7.10.4"
   },
   "scripts": {
@@ -17,6 +18,7 @@
     "Array": "babel ./CursoJsES6/Conceitos/Array/main.js -o ./CursoJsES6/Conceitos/Array/Arraybundle.js -w",
     "Arrow": "babel ./CursoJsES6/Conceitos/Arrow/main.js -o ./CursoJsES6/Conceitos/Arrow/Arrowbundle.js -w",
     "ValoresP": "babel ./CursoJsES6/Conceitos/ValoresP/main.js -o ./CursoJsES6/Conceitos/ValoresP/ValoresPbundle.js -w",
-    "Desestrutura": "babel ./CursoJsES6/Conceitos/Desestrutura/main.js -o ./CursoJsES6/Conceitos/Desestrutura/DesestruturaPbundle.js -w"
+    "Desestrutura": "babel ./CursoJsES6/Conceitos/Desestrutura/main.js -o ./CursoJsES6/Conceitos/Desestrutura/DesestruturaPbundle.js -w",
+    "rest_spread": "babel ./CursoJsES6/Conceitos/rest_spread/main.js -o ./CursoJsES6/Conceitos/rest_spread/rest_spreadbundle.js -w"
   }
 }
