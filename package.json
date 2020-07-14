@@ -20,6 +20,7 @@
     "ValoresP": "babel ./CursoJsES6/Conceitos/ValoresP/main.js -o ./CursoJsES6/Conceitos/ValoresP/ValoresPbundle.js -w",
     "Desestrutura": "babel ./CursoJsES6/Conceitos/Desestrutura/main.js -o ./CursoJsES6/Conceitos/Desestrutura/DesestruturaPbundle.js -w",
     "rest_spread": "babel ./CursoJsES6/Conceitos/rest_spread/main.js -o ./CursoJsES6/Conceitos/rest_spread/rest_spreadbundle.js -w",
-    "template": "babel ./CursoJsES6/Conceitos/template_literals/main.js -o ./CursoJsES6/Conceitos/template_literals/templatebundle.js -w"
+    "template": "babel ./CursoJsES6/Conceitos/template_literals/main.js -o ./CursoJsES6/Conceitos/template_literals/templatebundle.js -w",
+    "short": "babel ./CursoJsES6/Conceitos/short/main.js -o ./CursoJsES6/Conceitos/short/shortbundle.js -w"
   }
 }
