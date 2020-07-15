@@ -1,24 +1,21 @@
-class Admin {
-  constructor() {
-    super();
-    this.email = [];
-    this.senha = [];
-    this.admin = true;
+class Usuario {
+  constructor(email, senha) {
+    this.email = email;
+    this.senha = senha;
   }
-  add(email, senha) {
-    this.email.push(email);
-    this.email.push(senha);
+  isAdmin() {
+    return this.admin === true;
   }
 }
-class Usuario extends Admin {
+class Admin extends Usuario {
   constructor() {
-    this.email;
-    this.senha;
+    super();
+    this.admin = true;
   }
 }
 
 const User1 = new Usuario("email@teste.com", "senha123");
 const Adm1 = new Admin("email@teste.com", "senha123");
-console.log(Adm1.email);
-// console.log(User1.isAdmin());
-// console.log(Adm1.isAdmin());
+
+console.log(User1.isAdmin());
+console.log(Adm1.isAdmin());
