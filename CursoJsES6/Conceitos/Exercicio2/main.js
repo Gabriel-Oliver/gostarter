@@ -13,4 +13,8 @@ const filter = usuarios.filter((usuarios) => {
   );
 });
 
-console.log(filter);
+// console.log(filter);
+const find = usuarios.find(
+  (usuarios) => usuarios.nome && usuarios.empresa === "Google"
+);
+console.log(find);

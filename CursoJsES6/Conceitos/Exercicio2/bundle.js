@@ -19,5 +19,9 @@ var idades = usuarios.map(function (usuarios) {
 
 var filter = usuarios.filter(function (usuarios) {
   return usuarios.nome && usuarios.idade >= 18 && usuarios.empresa === "Rocketseat";
+}); // console.log(filter);
+
+var find = usuarios.find(function (usuarios) {
+  return usuarios.nome && usuarios.empresa === "Google";
 });
-console.log(filter);
+console.log(find);
