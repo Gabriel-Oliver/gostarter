@@ -23,5 +23,13 @@ var filter = usuarios.filter(function (usuarios) {
 
 var find = usuarios.find(function (usuarios) {
   return usuarios.nome && usuarios.empresa === "Google";
+}); // console.log(find);
+
+var users = usuarios.map(function (usuarios) {
+  usuarios.idade *= 2;
+  return usuarios;
 });
-console.log(find);
+var filterI = users.filter(function (users) {
+  return users.nome && users.idade <= 50 && users.empresa;
+});
+console.log(filterI);

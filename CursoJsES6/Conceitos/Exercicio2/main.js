@@ -17,4 +17,15 @@ const filter = usuarios.filter((usuarios) => {
 const find = usuarios.find(
   (usuarios) => usuarios.nome && usuarios.empresa === "Google"
 );
-console.log(find);
+// console.log(find);
+
+const users = usuarios.map((usuarios) => {
+  usuarios.idade *= 2;
+  return usuarios;
+});
+
+const filterI = users.filter(
+  (users) => users.nome && users.idade <= 50 && users.empresa
+);
+
+console.log(filterI);
