@@ -18,8 +18,6 @@ var idades = usuarios.map(function (usuarios) {
 }); // console.log(idades);
 
 var filter = usuarios.filter(function (usuarios) {
-  if (usuarios.idade >= 18 && usuarios.empresa === "Rocketseat") {
-    return usuarios.nome, usuarios.idade, usuarios.empresa;
-  }
+  return usuarios.nome && usuarios.idade >= 18 && usuarios.empresa === "Rocketseat";
 });
 console.log(filter);
