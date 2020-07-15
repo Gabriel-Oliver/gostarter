@@ -5,4 +5,12 @@ const usuarios = [
 ];
 
 const idades = usuarios.map((usuarios) => usuarios.idade);
-console.log(idades);
+// console.log(idades);
+
+const filter = usuarios.filter((usuarios) => {
+  if (usuarios.idade >= 18 && usuarios.empresa === "Rocketseat") {
+    return usuarios.nome, usuarios.idade, usuarios.empresa;
+  }
+});
+
+console.log(filter);
