@@ -25,6 +25,7 @@
     "Exercicio1": "babel ./CursoJsES6/Conceitos/Exercicio1/main.js -o ./CursoJsES6/Conceitos/Exercicio1/bundle.js -w",
     "Exercicio2": "babel ./CursoJsES6/Conceitos/Exercicio2/main.js -o ./CursoJsES6/Conceitos/Exercicio2/bundle.js -w",
     "Exercicio3": "babel ./CursoJsES6/Conceitos/Exercicio3/main.js -o ./CursoJsES6/Conceitos/Exercicio3/bundle.js -w",
-    "Exercicio4": "babel ./CursoJsES6/Conceitos/Exercicio4/main.js -o ./CursoJsES6/Conceitos/Exercicio4/bundle.js -w"
+    "Exercicio4": "babel ./CursoJsES6/Conceitos/Exercicio4/main.js -o ./CursoJsES6/Conceitos/Exercicio4/bundle.js -w",
+    "Exercicio5": "babel ./CursoJsES6/Conceitos/Exercicio5/main.js -o ./CursoJsES6/Conceitos/Exercicio5/bundle.js -w"
   }
 }
