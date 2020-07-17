@@ -16,9 +16,15 @@ const test = usuario.map((usuario) => usuario.idade);
 const usuario2 = [{ nome: "Diego", idade: 23 }];
 
 const teste = usuario2.find((usuario2) => usuario2);
-console.log(teste.nome, teste.idade);
-console.log(teste.idade);
+// console.log(teste.nome, teste.idade);
+// console.log(teste.idade);
 
 //git commit -m "adiciona o exercício 3.3 da lista de desafios"
+
+const promise = () => {
+  return new Promise((resolve, reject) => resolve());
+};
+
+console.log(promise());
 
 //git commit -m "adiciona o exercício 3.4 da lista de desafios"

@@ -22,7 +22,14 @@ var usuario2 = [{
 }];
 var teste = usuario2.find(function (usuario2) {
   return usuario2;
-});
-console.log(teste.nome, teste.idade);
-console.log(teste.idade); //git commit -m "adiciona o exercício 3.3 da lista de desafios"
-//git commit -m "adiciona o exercício 3.4 da lista de desafios"
+}); // console.log(teste.nome, teste.idade);
+// console.log(teste.idade);
+//git commit -m "adiciona o exercício 3.3 da lista de desafios"
+
+var promise = function promise() {
+  return new Promise(function (resolve, reject) {
+    return resolve();
+  });
+};
+
+console.log(promise()); //git commit -m "adiciona o exercício 3.4 da lista de desafios"
