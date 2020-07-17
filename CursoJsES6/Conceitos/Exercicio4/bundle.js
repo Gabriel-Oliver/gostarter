@@ -6,13 +6,23 @@ var empresa = {
     cidade: "Rio do Sul",
     estado: "SC"
   }
-};
-var nome = empresa.nome,
-    _empresa$endereco = empresa.endereco,
-    cidade = _empresa$endereco.cidade,
-    estado = _empresa$endereco.estado;
-console.log(nome); // Rocketseat
+}; // const {
+//   nome,
+//   endereco: { cidade, estado },
+// } = empresa;
+// console.log(nome); // Rocketseat
+// console.log(cidade); // Rio do Sul
+// console.log(estado); // SC
+// git commit -m "adiciona o exercício 4.1 da lista de desafios"
 
-console.log(cidade); // Rio do Sul
+function mostraInfo() {
+  return "".concat(nome, " tem ").concat(idade, " anos.");
+}
 
-console.log(estado); // SC
+var _nome$idade = {
+  nome: "Diego",
+  idade: 23
+},
+    nome = _nome$idade.nome,
+    idade = _nome$idade.idade;
+console.log(mostraInfo()); // git commit -m "adiciona o exercício 4.2 da lista de desafios"
