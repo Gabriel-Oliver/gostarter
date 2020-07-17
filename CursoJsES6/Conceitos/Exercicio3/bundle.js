@@ -20,11 +20,15 @@ var usuario2 = [{
   nome: "Diego",
   idade: 23
 }];
-var teste = usuario2.find(function (usuario2) {
+
+var _usuario2$find = usuario2.find(function (usuario2) {
   return usuario2;
-}); // console.log(teste.nome, teste.idade);
-// console.log(teste.idade);
-//git commit -m "adiciona o exercício 3.3 da lista de desafios"
+}),
+    idade = _usuario2$find.idade,
+    nome = _usuario2$find.nome;
+
+console.log(nome, idade);
+console.log(idade); //git commit -m "adiciona o exercício 3.3 da lista de desafios"
 
 var promise = function promise() {
   return new Promise(function (resolve, reject) {
