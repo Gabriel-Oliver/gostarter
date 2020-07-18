@@ -40,9 +40,9 @@ var usuario2 = _objectSpread(_objectSpread({}, usuario), {}, {
 console.log(usuario2);
 
 var usuario3 = _objectSpread(_objectSpread({}, usuario), {}, {
-  endereco: {
+  endereco: _objectSpread(_objectSpread({}, usuario.endereco), {}, {
     cidade: "Lontras"
-  }
+  })
 });
 
 console.log(usuario3); // git commit -m "adiciona o exercício 5.2 da lista de desafios (Spread)"
