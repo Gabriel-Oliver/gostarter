@@ -5,13 +5,17 @@
   "repository": "https://github.com/Gabriel-Oliver/gostarter.git",
   "author": "Gabriel Óliver <gabrielmed2010@hotmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
     "@babel/plugin-proposal-object-rest-spread": "^7.10.4",
-    "@babel/preset-env": "^7.10.4"
+    "@babel/preset-env": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
   },
   "scripts": {
+    "dev": "webpack --mode=development -w",
     "ConfigBabel": "babel ./CursoJsES6/Conceitos/ConfigBabel/main.js -o ./CursoJsES6/Conceitos/ConfigBabel/ConfigBabelbundle.js -w",
     "Classesjs": "babel ./CursoJsES6/Conceitos/Classesjs/main.js -o ./CursoJsES6/Conceitos/Classesjs/Classesjsbundle.js -w",
     "Const_let": "babel ./CursoJsES6/Conceitos/Const_let/main.js -o ./CursoJsES6/Conceitos/Const_let/Const_letbundle.js -w",
