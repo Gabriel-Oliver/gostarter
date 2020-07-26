@@ -22,6 +22,11 @@
 
 // api.getUserInfo("1SDLASIDH");
 // api.getUserInfo("Gabriel-Oliver");
+// DESAFIO 1 MODULO 3
+// import { umPorSegundo } from "./indexdesa1";
+// umPorSegundo();
+// DESAFIO 2 MODULO 3
 
-import { umPorSegundo } from "./indexdesa1";
-umPorSegundo();
+import dataUser from "./indexdesa2";
+dataUser.info("diego3g");
+dataUser.info("diego3g124123");
