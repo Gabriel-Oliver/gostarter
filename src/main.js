@@ -36,6 +36,12 @@
 
 // DESAFIO 3 MODULO 3
 
-import Github from "./indexdesa3";
-Github.getRepositories("rocketseat/rocketseat.com.br");
-Github.getRepositories("rocketseat/dslkvmskv");
+// import Github from "./indexdesa3";
+// Github.getRepositories("rocketseat/rocketseat.com.br");
+// Github.getRepositories("rocketseat/dslkvmskv");
+
+// DESAFIO 4 MODULO 3
+
+import busca from "./indexdesa4";
+
+busca.buscaUsuario("diego3g");
