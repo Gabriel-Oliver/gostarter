@@ -18,7 +18,10 @@
 
 // executaPromise();
 
-import api from "./axios";
+// import api from "./axios";
 
-api.getUserInfo("1SDLASIDH");
-api.getUserInfo("Gabriel-Oliver");
+// api.getUserInfo("1SDLASIDH");
+// api.getUserInfo("Gabriel-Oliver");
+
+import { umPorSegundo } from "./indexdesa1";
+umPorSegundo();
