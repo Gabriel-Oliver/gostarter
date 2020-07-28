@@ -19,6 +19,7 @@ class App {
       avatar_url: "https://avatars0.githubusercontent.com/u/28929274?v=4",
       html_url: "https://github.com/rocketseat",
     });
+
     console.log(this.repositories);
   }
 }
