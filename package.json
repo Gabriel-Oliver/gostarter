@@ -39,6 +39,6 @@
     "Exercicio7": "babel ./CursoJsES6/Conceitos/Exercicio7/main.js -o ./CursoJsES6/Conceitos/Exercicio7/bundle.js -w"
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.21.1"
   }
 }
